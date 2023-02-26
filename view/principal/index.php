@@ -1,5 +1,5 @@
 <?php
-include './1cabecera.php';
+include './cabeceras/1cabecera.php';
 //var_dump($_POST);
 if(isset($_POST['cliente'])){
     $cliente = $_POST['cliente'];
@@ -412,5 +412,5 @@ if(isset($_POST['cliente'])){
 
 <?php
 
-include './2pie.php';
+include './cabeceras/2pie.php';
 ?>
